@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: synergychat-crawler-configmap
-  namespace: default
+  namespace: crawler
 data:
   CRAWLER_DB_PATH: "/cache/db"
   CRAWLER_PORT: "8080"
